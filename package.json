@@ -1,0 +1,35 @@
+{
+  "name": "battleship",
+  "version": "1.0.0",
+  "description": "This is a web-based recreation of the famous Battleship game.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watch *.js",
+    "build": "webpack",
+    "dev": "webpack serve",
+    "deploy": "git subtree push --prefix dist origin gh-pages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QdMe/Battleship.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/QdMe/Battleship/issues"
+  },
+  "homepage": "https://github.com/QdMe/Battleship#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.29.7",
+    "css-loader": "^7.1.5",
+    "html-webpack-plugin": "^5.6.8",
+    "jest": "^30.5.2",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.112.2",
+    "webpack-cli": "^7.3.1",
+    "webpack-dev-server": "^6.1.0"
+  }
+}
