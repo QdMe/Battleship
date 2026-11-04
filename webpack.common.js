@@ -9,9 +9,9 @@ export default {
   entry: {
     app: "./src/index.js",
   },
-  //   experiments: {
-  //     html: true,
-  //   },
+  experiments: {
+    html: true,
+  },
   output: {
     filename: "main.js",
     htmlFilename: "index.html",
